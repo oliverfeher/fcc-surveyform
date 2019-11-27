@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>foodPorn</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="title">foodPorn survey</h1>
+        <p id="description">what do you put in your mouth</p>
+    </header>
+    
+
+    <div class="main-container">
+        <form id="survey-form">
+            <label for="name" id="name-label" class="shadow">Name</label>
+            <input id="name" name="name" class="item" type="text" placeholder="Enter your name.." required>
+
+            <label for="email" id="email-label" class="shadow">E-mail address</label>
+            <input id="email" name="email" class="item" type="email" placeholder="Enter your e-mail address.." required>
+
+            <label for="age" id="number-label" class="shadow">Age</label>
+            <input id="number" name="age" class="item" type="number" min="10" max="99" placeholder="Enter your age..">
+
+            <label for="country" class="shadow">I live in..</label>
+            <select id="dropdown" name="country" class="item" required>
+                <option value="northamerica" selected>North-America</option>
+                <option value="southamerica">South-America</option>
+                <option value="africa">Africa</option>
+                <option value="europe">Europe</option>
+                <option value="asia">Asia</option>
+                <option value="australia">Australia</option>
+            </select>
+
+            <div class="radio">
+                <span>What cousine do you prefer</span>
+                <label>
+                    <input type="radio" name="pros" value="italian">Italian
+                </label>
+                
+                <label>
+                    <input type="radio" name="pros" value="french">French
+                </label>    
+
+                <label>
+                    <input type="radio" name="pros" value="mexican">Mexican
+                </label>
+
+                <label>
+                    <input type="radio" name="pros" value="asian">Asian
+                </label>
+
+                <label>
+                    <input type="radio" name="pros" value="american">American
+                </label>
+            </div>
+
+            <div class="checkboxes">
+                <span>Select a few of your favorites</span>
+                <label>
+                    <input type="checkbox" value="pizza">Pizza
+                </label>
+                
+                <label>
+                    <input type="checkbox" value="pasta">Pasta
+                </label>
+
+                <label>
+                    <input type="checkbox" value="tacos">Tacos
+                </label>
+
+                <label>
+                    <input type="checkbox" value="barbecue">Barbecue
+                </label>
+
+                <label>
+                    <input type="checkbox" value="sushi">Sushi
+                </label>
+
+                <label>
+                    <input type="checkbox" value="soups">Soups
+                </label>
+
+                <label>
+                    <input type="checkbox" value="seafood">Seafood
+                </label>
+
+                <label>
+                    <input type="checkbox" value="fastfood">Fastfood
+                </label>
+            
+            </div>
+
+            <span>Additional comments</span>
+            <textarea name="comments" placeholder="Additional comments"></textarea>
+
+            <input id="submit" class="item" type="submit" value="Submit" required>
+
+        </form>
+    </div>
+    
+</body>
+</html>

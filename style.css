@@ -1,0 +1,91 @@
+html {
+    background-image: url("https://wallpaperpicturehd.com/wp-content/uploads/2019/07/food-abstract-wallpaper-fresh-italian-food-wallpapers-wallpaper-cave-of-food-abstract-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Righteous', cursive;
+    
+}
+
+p {
+    margin-top: -20px;
+}
+header {
+    text-align: center;
+    color: white;
+}
+
+.main-container {
+    background-image: url("https://img.wallpapersafari.com/tablet/1536/2048/24/47/cFLbEX.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px black solid;
+    border-radius: 20px;
+    width: 35%;
+    margin: auto;
+}
+
+#survey-form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.shadow {
+    text-shadow: 1px 2px beige;
+    font-size: 1.1vw;
+}
+span {
+    font-size: 1.1vw;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-shadow: 1px 2px beige;
+}
+.item {
+    margin: 10px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:;
+    color:black;
+    background-color: beige;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio label {
+    padding: 4px;
+}
+
+.checkboxes label {
+    padding: 4px;
+    
+}
+
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;  
+}
+
+textarea {
+    min-height: 120px;
+    width: 100%;
+    background-color: beige;
+}
+
+#submit {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: black;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+}
+
+#submit:hover {
+    color: white;
+}
+
+
